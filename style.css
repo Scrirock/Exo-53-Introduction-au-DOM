@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    width: 100%;
+    font-size: 2rem;
+    background-color: antiquewhite;
+}
+
+@keyframes animTest {
+    from{
+        color: red;
+        text-decoration-line: none;
+    }
+
+    to{
+        color: black;
+        text-decoration-line: underline;
+    }
+}
